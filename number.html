@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Number Processor</title>
+    <link rel="stylesheet" href="Number.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Simple Number Processor</h1>
+        <h2 >Input Numbers</h2>
+        <input type="text"  id="inputNumber" placeholder="Enter a Number : ">
+        <div class="twobutton">    
+        <button onclick="AddNumber()">Add Numbers</button>
+        <button id="two" onclick="Reset()" >Reset</button></div>
+        <h2>Operations</h2>
+        <button onclick="SquareAll()">Square All</button>
+        <button onclick="cubeAll()">cube All</button>
+        <button onclick="showAll()">Show All</button>
+        <button onclick="showeven()">Show Even</button>
+        <button onclick="showodd()">Show Odd</button>
+        <button id="last" onclick="calculateSum()">Calculate Sum</button>
+        <h2>Results</h2>
+        <div class="result">
+        <h3 id="CurrentNumber"></h3>
+        <h3 id="result"></h3>
+        </div>
+    </div>
+    <script src="number.js"></script>
+</body>
+</html>

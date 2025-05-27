@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    margin-top: 20px;
+}
+
+.main{
+   color:rgb(49, 49, 236);
+   /* border:1px solid black; */
+   margin:auto;
+   width:600px;
+   padding:20px;
+   background-color: white;
+
+}
+h2{
+    padding-block:20px;
+}
+input{
+    width:560px;
+    height:40px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(19, 19, 209,0.7);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.twobutton  #two {
+    margin-left: 20px;
+}
+button{
+    color:white;
+    padding:10px;
+    border-radius: 3px;
+    background-color: rgba(5, 5, 221, 0.8);
+    border:none;
+    margin-inline:10px;
+}
+#last{
+    margin-top: 20px;;
+}
+h3{
+    color:green;
+    padding-left: 15px;    
+}
+.result{
+    background-color: rgba(226, 226, 226,0.4);
+}
+#result
+{
+    margin-top: 10px;
+}
